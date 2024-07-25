@@ -1,0 +1,25 @@
+<!-- navbar.component.html -->
+<div class="navbar">
+    <nav>
+        <ul>
+          <li *ngFor="let item of navbarData.navbar">
+            <a [href]="item.link">{{ item.label }}</a>
+            <ul *ngIf="item.dropdown">
+              <li *ngFor="let subitem of item.dropdown">
+                <a [href]="subitem.link">{{ subitem.label }}</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    
+
+
+</div>
+
+
+
+  
+
+
+  
