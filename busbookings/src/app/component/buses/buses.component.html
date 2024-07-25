@@ -1,0 +1,49 @@
+<div class="busgroup">
+    <img src="https://www.shutterstock.com/image-vector/woman-buying-bus-ticket-online-260nw-2177022423.jpg" width="1500" height="500">
+    <div class="text-container">
+        <h3>Book Bus Tickets</h3>
+
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="nav-link active" href="#">From</a>
+                <input type="text" placeholder="">
+              <a class="navbar-brand">To</a>
+              <input type="text" placeholder="">
+
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </div>
+</div>
+
+<div class="grid">
+  <div class="card"  *ngFor="let bus of businfo">
+    <div class="col-md-4">
+
+      <img [src]="bus.bimage" class="card-img-top" alt="{{bus.bdetails}}">
+      <div class="card-body">
+        <h5 class="card-title">Company Name:{{bus.bcompany}}</h5>
+        <p class="card-text">Availability: {{bus.bavailability}} </p>
+        <a class="card-contact">Contact Number: {{bus.bcontact}}</a>
+        <h1 class="card-price">Price: {{bus.bprice}}</h1>
+        <h3 class="card-starttime">Start Time: {{bus.bstarttime}} </h3>
+        <p class="card-status">Bus Status: {{bus.bstatus}} </p>
+        <button class="btn btn-primary" style='margin-right:16px' (click)="delete(bus.id)" >Delete </button>
+        <button class="btn btn-primary" style='margin-right:16px'>Update </button>
+        <button class="btn btn-primary" style='margin-right:16px'>Edit</button>
+    
+      </div>
+    </div>
+  
+    </div>
+  
+  
+  
+
+
+</div>
+
+
