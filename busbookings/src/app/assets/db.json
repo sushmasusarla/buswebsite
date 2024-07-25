@@ -1,0 +1,75 @@
+{
+    "navbar": [
+      {
+        "label": "Home",
+        "link": "/"
+      },
+      {
+        "label": "About Us",
+        "link": "/about"
+      },
+      {
+        "label": "Services",
+        "link": "/services",
+        "dropdown": [
+          {
+            "label": "Web Development",
+            "link": "/services/web-development"
+          },
+          {
+            "label": "Mobile App Development",
+            "link": "/services/mobile-app-development"
+          },
+          {
+            "label": "UI/UX Design",
+            "link": "/services/ui-ux-design"
+          }
+        ]
+      },
+      {
+        "label": "Contact",
+        "link": "/contact"
+      }
+    ],
+
+    "navs":[
+      {
+        "label": "home",
+        "link":"/home"
+      },
+      {
+        "label":"buses",
+        "link":"/buses  "
+      },
+      {
+        "label":"trains",
+        "link":"/trains  "
+      },
+      {
+        "label":"flights",
+        "link":"/flights  "
+      },
+      {
+        "label": "Services",
+        "link": "/services",
+        "dropdown": [
+          {
+            "label": "Web Development",
+            "link": "/services/web-development"
+          },
+          {
+            "label": "Mobile App Development",
+            "link": "/services/mobile-app-development"
+          },
+          {
+            "label": "UI/UX Design",
+            "link": "/services/ui-ux-design"
+          }
+        ]
+      }
+
+
+
+    ]
+  }
+  
