@@ -1,0 +1,45 @@
+<div class="busgroup">
+    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230426/pngtree-an-express-train-travelling-through-a-wooded-image_2547468.jpg" width="1600" height="500">
+    <div class="text-container">
+        <h3>Train Tickets</h3>
+
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="nav-link active" href="#">From</a>
+                <input type="text" placeholder="">
+              <a class="navbar-brand">To</a>
+              <input type="text" placeholder="">
+
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </div>
+</div>
+
+
+
+
+  <div class="grid"  *ngFor="let train of traininfo">
+    <div class="col-md-4">
+
+      <img [src]="train.timage" class="card-img-top" alt="{{train.tname}}">
+      <div class="card-body">
+        <h5 class="card-title">Train Name:{{train.tname}}</h5>
+        <a class="card-contact">Train start: {{train.tstart}}</a>
+        <h1 class="card-price">Price: {{train.tprice}}</h1>
+        <p class="card-status">Train End : {{train.tend}} </p>
+        <button class="btn btn-primary" style='margin-right:16px' >Delete </button>
+        <button class="btn btn-primary" style='margin-right:16px'>Update </button>
+        <button class="btn btn-primary" style='margin-right:16px'>Edit</button>
+    
+      </div>
+    </div>
+  
+  
+
+
+
+
