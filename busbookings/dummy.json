@@ -1,0 +1,123 @@
+{
+    "bdata":[
+        {
+        "id": 1,
+        "bstartplace":"Guntur",
+        "bendplace":"Chennai",
+        "bstarttime":"10.00pm",
+        "bendtime":"6.00pm",
+        "bprice":"300 rs",
+        "bseats":30,
+        "bstatus":"available",
+        "bbookedseats":20,
+        "bcompany":"Svkdt",
+        "bdeparturedate":" 11-june-2024 ",
+        "bdeparturetime":"10.05pm",
+        "breturndate":"12-june-2024",
+        "bimage":"https://gst-contracts.s3.ap-southeast-1.amazonaws.com/uploads/bcc/cms/asset/avatar/227902/gallery_g1.jpg",
+        "bavailability":"yes",
+        "blocation":"Guntur",
+        "bdistance":"500km",
+        "bcontact":9988556644,
+        "bwebsite":"https://www.abhibus.com/",
+        "bdetails":"it is good to have"
+        
+},
+{
+    "id": 2,
+    "bstartplace":"Hyderabad",
+    "bendplace":"Mangalagiri",
+    "bstarttime":"11.00pm",
+    "bendtime":"7.00pm",
+    "bprice":"350 rs",
+    "bseats":30,
+    "bstatus":"available",
+    "bbookedseats":25,
+    "bcompany":"Morning Star",
+    "bdeparturedate":" 15-june-2024 ",
+    "bdeparturetime":"11.05pm",
+    "breturndate":"16-june-2024",
+    "bimage":"https://chalo.com/assets/chalo-bus-images/home-banner.jpg",
+    "bavailability":"yes",
+    "blocation":"Hyderabad",
+    "bdistance":"30km",
+    "bcontact":8877445566,
+    "bwebsite":"https://www.abhibus.com/",
+    "bdetails":"it is good to have"
+
+    
+
+},
+{
+    "id": 3,
+    "bstartplace":"Hyderabad",
+    "bendplace":"Ananthapuram",
+    "bstarttime":"09.00pm",
+    "bendtime":"3.00pm",
+    "bprice":"500 rs",
+    "bseats":30,
+    "bstatus":"no",
+    "bbookedseats":25,
+    "bcompany":"Morning Star",
+    "bdeparturedate":" 19june-2024 ",
+    "bdeparturetime":"09.05pm",
+    "breturndate":"20-june-2024",
+    "bimage":"https://chalo.com/assets/chalo-bus-images/home-banner.jpg",
+    "bavailability":"no",
+    "blocation":"Hyderabad",
+    "bdistance":"30km",
+    "bcontact":6655447788,
+    "bwebsite":"https://www.abhibus.com/",
+    "bdetails":"it is good to have"
+
+    
+},
+{
+    "id": 4,
+    "bstartplace":"Tirupathi",
+    "bendplace":"Bangalore  ",
+    "bstarttime":"07.00pm",
+    "bendtime":"3.00pm",
+    "bprice":"900 rs",
+    "bseats":30,
+    "bstatus":"no",
+    "bbookedseats":25,
+    "bcompany":"Evening nStar",
+    "bdeparturedate":" 19june-2024 ",
+    "bdeparturetime":"09.05pm",
+    "breturndate":"20-june-2024",
+    "bimage":"https://chalo.com/assets/chalo-bus-images/home-banner.jpg",
+    "bavailability":"no",
+    "blocation":"Tirupathi",
+    "bdistance":"30km",
+    "bcontact":6655447788,
+    "bwebsite":"https://www.abhibus.com/",
+    "bdetails":"it is good to have"
+
+}
+       
+    ],
+
+    "tdata":[
+        {
+            "tid": 1,
+            "tname": "Howrah- Yeshwanthapur Express",
+            "timage": " https://media.istockphoto.com/id/466506979/photo/indian-passenger-train.jpg?s=612x612&w=0&k=20&c=AKcMyvqsam93AnADQaK4hzAMI9bdWOVd8tKoF5Sf10M=",
+            "tstart": "10.00am",
+            "tend": "7.00pm",
+            "tdeparture": "11-june-2024",
+            "tprice": "cost of 450rs"   
+             },
+             {
+                "tid" : 2,
+                "tname": "Simhadri",
+                "timage": " https://t3.ftcdn.net/jpg/04/54/72/12/360_F_454721218_G91nkzBRgx3gqLmXIV9QWa1opYel9DYH.jpg",
+                "tstart": "11.00am",
+                "tend": "9.00pm",
+                "tdeparture": "15-june-2024",
+                "tprice": "cost of 450rs"   
+   
+                 }
+    
+    ]
+}
