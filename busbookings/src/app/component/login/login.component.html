@@ -1,0 +1,30 @@
+<p>login works!</p>
+<div class="form">
+<h1> Reactive Form</h1>
+<form [formGroup]="login"  (ngSubmit)="onsubmit()">
+    <label>Username:</label>
+    <input type="text" name="username" placeholder="Enter ur name"  class="form-control" id="username" formControlName="username" >
+    <label>Password:</label>
+    <input type="password" name="password" placeholder="Enter ur password" class="form-control" id="password" formControlName="password" >
+    <button type="submit" class="btn btn-primary" (click)="onsubmit">Submit</button>
+</form>
+
+</div><br><br><br>
+
+<div class="forms">
+
+    <h1>Template Driven Form</h1>
+    <form #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+        <label>
+            Email:
+        </label>
+        <input type="email"  id="email" name="email" placeholder="Enter" ngModel>
+        <label>secured:</label>
+        <input type="password" id="secured" name="secured" placeholder="Enter"   ngModel>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    
+    
+    </form>
+    
+
+</div>
